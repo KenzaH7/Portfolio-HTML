@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f8f8f8;
+  color: #383636;
+  font-family: "roboto";
+  line-height: 1.6;
+}
+.navbar {
+  background-color: #f3f2f2;
+  padding: 10px 0;
+  text-align: left;
+}
+.navbar ul {
+  list-style-type: none;
+}
+.navbar ul li {
+  display: inline;
+  margin-left: 0;
+}
+.navbar ul li a {
+  text-decoration: none;
+  padding: 5px 5px;
+  color: #333131;
+}
+.navbar ul li a:hover {
+  background-color: rgba(252, 184, 209, 0.5);
+}
+.navbar ul li a:active {
+  color: rgba(244, 184, 252, 0.5);
+}
+.navbar ul li a:visited {
+  color: rgba(184, 211, 252, 0.5);
+}
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  background-color: #f8f8f8;
+  border: 1px;
+}
+section h2 {
+  font-size: 24px;
+  color: #ff9fc4;
+  margin-bottom: 10px;
+}
+section p {
+  margin: bottom 10px;
+}
+section img {
+  max-width: 500px;
+  display: inline-block;
+}
+form {
+  max-width: 400px;
+  margin: auto;
+}
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: rgb(255, 156, 205);
+}
+form input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1xp solid #ffffff;
+  font-size: 16xp;
+}
+form button {
+  background-color: blueviolet;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: blueviolet;
+}
